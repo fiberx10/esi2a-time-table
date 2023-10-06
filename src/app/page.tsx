@@ -100,8 +100,8 @@ export default function Home() {
             textAlign: "center",
           }}
         >
-          Bonjour, bienvenue sur l'application de gestion des emplois du temps
-          d'
+          Bonjour, bienvenue sur l&apos;application de gestion des emplois du temps
+          d&apos;
           <span style={{ color: "green" }}>
             ESI<span style={{ color: "red" }}>2</span>A
           </span>
