@@ -27,6 +27,7 @@ function TimeTable() {
     const level = searchParams.get("level") || "CPI1"
     return (
     <iframe src={
+        //@ts-ignore
         timeTablesLinks[semester as string][level]
     } style={{ width: "100vw", height: "100vh" }}></iframe>
   );

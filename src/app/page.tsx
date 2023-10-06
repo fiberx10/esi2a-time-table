@@ -119,6 +119,7 @@ export default function Home() {
         >
           <Link
             href={"/time/?semester=" + tab + "&level=CPI1"}
+            //@ts-ignore
             style={{
               ...styles.button,
               backgroundColor: "green",
@@ -128,6 +129,7 @@ export default function Home() {
           </Link>
           <Link
             href={"/time/?semester=" + tab + "&level=CPI2"}
+            // @ts-ignore
             style={{
               ...styles.button,
               backgroundColor: "green",
@@ -137,6 +139,7 @@ export default function Home() {
           </Link>
           <Link
             href={"/time/?semester=" + tab + "&level=CI1"}
+            // @ts-ignore
             style={{
               ...styles.button,
               backgroundColor: "green",
@@ -146,6 +149,7 @@ export default function Home() {
           </Link>
           <Link
             href={"/time/?semester=" + tab + "&level=CI2"}
+            // @ts-ignore
             style={{
               ...styles.button,
               backgroundColor: "green",
@@ -155,6 +159,7 @@ export default function Home() {
           </Link>
           <Link
             href={"/time/?semester=" + tab + "&level=CI3"}
+            // @ts-ignore
             style={{
               ...styles.button,
               backgroundColor: "green",
