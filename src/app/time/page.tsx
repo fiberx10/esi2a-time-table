@@ -12,10 +12,11 @@ const timeTablesLinks = {
       CI3: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqQ7hG4MPz65AFPc3KT8Xph3Yf1InmPc5XzooTejA0XzsJ9SmE6t9cOIyuQMPm9b6x2m73ETeB0p/pubhtml",
     },
     S2: {
-      CPI1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSS3W_p7bAz4EmeuafOuVPLiO-Gtp6-WAfai_eR1EkwUvmiKyrENfH3dcPfggdevnUH1xpjhWIURxyz/pubhtml",
-      CPI2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBLMHqCiJocbMJz4M3Cm0ASuBN4znBUi08TBBOraKVEMJfb4e1EaVPSG3DWF2LIxwNhSrHolZetdBt/pubhtml",
-      CI1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTjZVrj90pkm3wLRemYXsMkOGLRqE-2QZ15Eu94SVPGSzNrfYVg-neGYx7lr_kMchWFAOutkUqZYHmJ/pubhtml",
-      CI2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRU0vk03KvvDrHr5YNx_iSunwS5N6rVwjJtVQ-SlmhxkpT1z1gtpF6l8R4SB1xFMAS_C61D-SOyUUWO/pubhtml",
+      CPI1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vR-_Ho1eoiNvlXMTZ5OAmxPBfsSQieM5YqRyp86gJd2f-OoLPMyrrR2Lk45HzbSDg/pubhtml?headers=false",
+      CPI2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRGg2TwjMGwdZDhYmS__DAo-NfG5dSiMaHPxSj3kw5kLZL8dcLlciHuzpRLDsOx3g/pubhtml?headers=false",
+      CI1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRIgc-5u3baUf13VtH4ffQOnkSjid9hxyHNR3anTCKCiisUARg95T7VhIjHi5bmUA/pubhtml?headers=false",
+      CI2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRVqXYmZtZMwgQbKZCmaNoEVKDoAE5uqXcJ9LCXZCniJV2bR7uRmIddJBP3uILXZg/pubhtml?headers=false",
+      CI3 : "",
     },
   };
 

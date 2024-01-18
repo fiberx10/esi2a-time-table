@@ -2,8 +2,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-
-
 const styles = {
   button: {
     alignItems: "center",
@@ -71,7 +69,14 @@ export default function Home() {
         height: "100vh",
       }}
     >
-      <div style={{ display: "flex", flexDirection: "row"  , width: "100%" , maxWidth: "500px"}}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          width: "100%",
+          maxWidth: "500px",
+        }}
+      >
         <Tab
           title="Semestre 1"
           active={tab == "S1"}
@@ -81,8 +86,8 @@ export default function Home() {
         <Tab
           title="Semestre 2"
           active={tab == "S2"}
-          disabled
           onClick={() => setTab("S2")}
+          disabled={undefined}
         />
       </div>
       <div
@@ -100,8 +105,8 @@ export default function Home() {
             textAlign: "center",
           }}
         >
-          Bonjour, bienvenue sur l&apos;application de gestion des emplois du temps
-          d&apos;
+          Bonjour, bienvenue sur l&apos;application de gestion des emplois du
+          temps d&apos;
           <span style={{ color: "green" }}>
             ESI<span style={{ color: "red" }}>2</span>A
           </span>
@@ -157,16 +162,18 @@ export default function Home() {
           >
             <span style={styles.text}>{"CI2 - " + tab}</span>
           </Link>
-          <Link
-            href={"/time/?semester=" + tab + "&level=CI3"}
-            // @ts-ignore
-            style={{
-              ...styles.button,
-              backgroundColor: "green",
-            }}
-          >
-            <span style={styles.text}>{"CI3 - " + tab}</span>
-          </Link>
+          {tab == "S1" && (
+            <Link
+              href={"/time/?semester=" + tab + "&level=CI3"}
+              // @ts-ignore
+              style={{
+                ...styles.button,
+                backgroundColor: "green",
+              }}
+            >
+              <span style={styles.text}>{"CI3 - " + tab}</span>
+            </Link>
+          )}
         </div>
       </div>
     </div>
